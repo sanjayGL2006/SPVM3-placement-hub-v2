@@ -1,6 +1,6 @@
 [build]
   publish = "apps/web/dist"
-  command = "npm --workspace placement-pro-react run build"
+  command = "npm run build"
 
 [build.environment]
   NODE_VERSION = "20"
